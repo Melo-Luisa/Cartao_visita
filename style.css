@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: "Rubik";
-    font-weight: 100;
+    font-weight: 400;
     src: url("./Rubik/Rubik-VariableFont_wght.ttf") format('opentype');
 }
 
@@ -18,12 +18,11 @@ html{
     background-color: grey;
     color: var(--white);
     text-align: center;
-    
 }
 body{
     background-color: var(--dark-purple);
     width: 600px;
-    height: 1300px;
+    height: 1600px;
     border-radius: 1.5em;
     font-family: "Rubik";
 }
@@ -46,19 +45,23 @@ body{
     background: linear-gradient(45deg, var(--white), var(--purple));
 }
 .foto{
-    border-radius: 22em;
+    border-radius: 50%;
     width: 12em;
     border: 1em solid var(--dark-purple);
     margin-top: -8em;
 }
 .bio{
     background-color: var(--purple);
-    width: 22em;
+    width: 30em;
     text-align: center;
     border-radius: 1em;
     display: block;
-    margin-left: 8em;
+    margin-left: 3em;
     padding: 0.5em;
+}
+.bio iframe{
+    width: 25em;
+    border-radius: 1em;
 }
 .consultas{
     display: flex;

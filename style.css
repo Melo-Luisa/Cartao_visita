@@ -26,10 +26,11 @@ body{
     font-family: "Rubik";
 }
 .container{
-    display: inline;
+    display: block;
 }
 .container h1{
     font-family: "Belgiano Serif";
+    width: 100%
 }
 .banner_ofc{
     width: 100%;

@@ -21,8 +21,7 @@ html{
 }
 body{
     background-color: var(--dark-purple);
-    width: 600px;
-    height: 1600px;
+    height:2000px;
     border-radius: 1.5em;
     font-family: "Rubik";
 }
@@ -32,14 +31,8 @@ body{
 .container h1{
     font-family: "Belgiano Serif";
 }
-.banner{
-    width: 31.2em;
-    height: 10em;
-    border-radius: 1.5em;
-
-}
 .banner_ofc{
-    width: 37.6em;
+    width: 100%;
     height: 10em;
     border-radius: 1.5em;
     background: linear-gradient(45deg, var(--white), var(--purple));
@@ -52,27 +45,28 @@ body{
 }
 .bio{
     background-color: var(--purple);
-    width: 30em;
+    width: 90%;
     text-align: center;
     border-radius: 1em;
     display: block;
-    margin-left: 3em;
-    padding: 0.5em;
+    margin-left: 1.5em;
 }
 .bio iframe{
-    width: 25em;
+    width: 85%;
     border-radius: 1em;
+    padding: 0.5em;
 }
 .consultas{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 2em;
+    display: block;
+    margin: 2em;
 }
 .consulta-type{
     border: 2px solid var(--purple);
-    width: 15em;
+    width: 85%;
     height: 17em;
     border-radius: 1em;
+    margin-left: 2em;
+    margin-top: 2em;
 }
 .consulta-type h3{
     background-color: var(--purple);
@@ -117,7 +111,7 @@ body{
     transition: 0.5s ease-in-out;
 }
 hr{
-    width:500px;
+    width:90%;
     margin-top: 5em;
 }
 .creator_button{

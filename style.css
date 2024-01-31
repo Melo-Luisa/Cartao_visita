@@ -112,7 +112,7 @@ body{
     font-size: 1.5em;
 }
 .contato a:hover{
-    color: #181220;
+    color: #ffffff;
     background-color: #806e97;
     transition: 0.5s ease-in-out;
 }

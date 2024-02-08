@@ -21,7 +21,7 @@ html{
 }
 body{
     background-color: var(--dark-purple);
-    height:2000px;
+    height:2100px;
     border-radius: 1.5em;
     font-family: "Rubik";
 }
@@ -101,14 +101,18 @@ body{
     padding: 1em;
 }
 .contato a{
-    color:var(--white);
+    color:var(--dark-purple);
     text-decoration: none;
     display: block;
     font-size: 1.5em;
+    background-color: var(--white);
+    margin-top: 1em;
+    border-radius: 1em;
+    width: 70%;
+    margin-left: 3em;
 }
 .contato a:hover{
-    color: #ffffff;
-    background-color: #806e97;
+    width: 55%;
     transition: 0.5s ease-in-out;
 }
 hr{
